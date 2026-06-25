@@ -1,0 +1,9 @@
+# OctoAcme — Project Management Overview
+
+OctoAcme follows a customer-first, iterative delivery approach with clearly defined roles and repeatable artifacts. Projects begin with a lightweight initiation step (Project One-pager, stakeholder list, and decision gate) to confirm business need and success metrics, then move into planning where work is decomposed into shippable increments, release milestones are set, and a Definition of Done is established. Core artifacts include the project one‑pager, prioritized backlog, release plan, risk register, and retrospective notes.
+
+Operational workflows emphasize predictable cadence and small, testable changes. Teams use a project board (Backlog → Ready → In Progress → In Review → QA → Done) and a pull request workflow that favors small PRs, links PRs to issues with acceptance criteria, and requires automated tests/linting and review approvals before merging. Sprint planning is timeboxed and only pulls items that meet the DoD; backlog items follow a consistent template for clarity and estimability.
+
+Communication and escalation are structured to surface risks early and keep stakeholders aligned. Regular rhythms include daily standups for blockers, a weekly delivery sync for progress and risks, PM+PdM alignment meetings, and monthly stakeholder updates. Risks are tracked in a simple risk register and follow a clear escalation path: Team → PM → Product Lead → Sponsor; incident communications follow a triage and post‑incident retrospective process.
+
+Quality and release practices are integrated into the delivery pipeline: unit and integration tests are required, smoke/end-to-end checks are used for critical flows, CI includes security scanning, and manual QA is applied when needed. Releases are categorized (patch/minor/major) with a deployment checklist and rollback playbook. Continuous improvement is supported by retrospectives that produce action items tracked back into the backlog.
